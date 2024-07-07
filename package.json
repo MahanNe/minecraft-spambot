@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "MinecraftSpamBot",
   "main": "index.js",
-  "script": {
+  "scripts": {
     "start": "node index.js"
-  } 
+  }, 
   "dependencies": {
     "snekfetch": "x",
     "mineflayer": "x"
