@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@antiadmin/anticaptchaofficial": "^1.0.47",
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "mineflayer": "^4.20.1",
+    "pngjs-image": "^0.11.7",
+    "proxy-agent": "^6.4.0",
+    "socks": "^2.8.3"
+  }
+}
