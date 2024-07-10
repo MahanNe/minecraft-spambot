@@ -1,7 +1,7 @@
 {
     "minecraft" : {
-        "host" : "localhost",
-        "port" : 25565,
+        "host" : "alinogotesting.aternos.me",
+        "port" : 35864,
         "username" : "SPAMBot",
         "password" : ""
     },
