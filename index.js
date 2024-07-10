@@ -8,19 +8,10 @@ startBot();
 function startBot() {
   console.clear();
 
-  const { minecraft, botOptions, discord, phrases } = require('./config.json');
+  const { minecraft, botOptions, phrases } = require('./config.json');
 
   const chalk = require('chalk');
   const mineflayer = require('mineflayer');
-  const Discord = require('discord.js');
-  const client = new Discord.Client();
-  client.login(discord.token);
-  const prefix = discord.prefix;
-
-  if (!discord.channelID || !discord.token) {
-    console.log(chalk.blueBright('Please enter a Channel ID and a Discord Bot Token'));
-    process.exit();
-  };
 
   var randomPhrase;
   var phraseCount;
@@ -87,13 +78,4 @@ function startBot() {
       channel.send('Moved!');
     }, 500);
   };
-
-  client.once('ready', () => {
-    if (!onlyOnce) {
-      channel = client.channels.cache.find(channel => channel.id === discord.channelID);
-      channel.send(`Logged in as ${client.user.tag} and as ${minecraft.username}`);
-      
-      onlyOnce = true;
-    };
-  })
 };
