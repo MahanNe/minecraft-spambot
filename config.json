@@ -1,0 +1,26 @@
+{
+    "minecraft" : {
+        "host" : "localhost",
+        "port" : 25565,
+        "username" : "SPAMBot",
+        "password" : ""
+    },
+
+    "botOptions" : {
+        "delay" : 1000
+    },
+
+    "discord" : {
+        "token" : "",
+        "channelID" : "",
+        "prefix" : "!"
+    },
+
+    "phrases" : [
+        "Also try Terraria!",
+        "Bruh",
+        "2b2t da bezt",
+        "Partnered with UrbanDictionary",
+        "Number 5"
+    ]
+}
