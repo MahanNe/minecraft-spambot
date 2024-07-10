@@ -10,12 +10,6 @@
         "delay" : 1000
     },
 
-    "discord" : {
-        "token" : "MTI2MDczNDQ1MTE5ODA3MDgzNA.G-Kyxi.x3KJynWTWM1A1MG9fbC7SDgWy7maei2a75Ttn0",
-        "channelID" : "1253699797542633602",
-        "prefix" : "!"
-    },
-
     "phrases" : [
         "Also try Terraria!",
         "Bruh",
